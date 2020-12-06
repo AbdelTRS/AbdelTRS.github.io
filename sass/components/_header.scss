@@ -1,0 +1,40 @@
+header {
+
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        font-family: $poppins;
+        padding: 0 10%;
+
+        article {
+            display: flex;
+            
+            img {
+                object-fit: contain;
+            }
+
+            h1 {
+                font-weight: $semi-bold;
+                color: $grey;
+                font-size: 2rem;
+                padding: 13% 0 0 9%;
+            }
+        }
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            width: 35%;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding-top: 15px;
+        
+            li {
+                list-style-type: none;
+                color: $white;
+                padding: 5%;
+            }
+        }
+    }
+}

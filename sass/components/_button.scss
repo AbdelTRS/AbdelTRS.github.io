@@ -1,0 +1,21 @@
+button{
+    width: auto;
+    text-transform: uppercase;
+    color: $white;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 25px;
+    outline: none;
+    background: $gradient;
+}
+.outline{
+    width: auto;
+    text-transform: capitalize;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+    border: 1px solid $blue;
+    color: $grey;
+}

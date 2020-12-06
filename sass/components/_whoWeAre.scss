@@ -1,0 +1,26 @@
+
+   #whoWeAre {
+        display: flex;
+        flex-flow: row wrap;
+        font-family: $poppins;
+        color: $grey;
+
+        img {
+            width: 50%;
+            object-fit: none;
+        }
+
+        article {
+            width: 50%;
+            background: url('../../img/background-we-are.png') center;
+            padding: 80px 50px;
+            p {
+                width: 60%;
+            }
+            button {
+                margin-top: 30px;
+                font-size: 0.6rem
+            }
+        }
+
+    }

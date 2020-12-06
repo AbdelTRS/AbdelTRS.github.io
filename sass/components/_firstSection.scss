@@ -1,0 +1,64 @@
+.firstSection {
+    background: url('../../img/wave.svg') top right no-repeat;
+    padding-bottom: 35px;
+
+    section {
+        display: flex;
+        flex-flow: row wrap;
+        font-family: $poppins;
+        color: $grey;
+
+        article {
+            margin: 12% 15%;
+            p{
+                font-size: 1rem;
+                font-weight: $light;
+                text-transform: uppercase;
+                width: 62%;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-size: 3rem;
+                font-weight: $semi-bold;
+                text-transform: uppercase;
+            }
+            h3 {
+                font-size: 4rem;
+                font-weight: $bold;
+                margin-top: -20px;
+                text-transform: uppercase;
+            }
+        }
+
+        #phoneImage {
+            object-fit: contain;
+        }
+    }
+}
+
+#mouse {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 19px 25px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+    background-color: $white;
+    border-radius: 50px;
+}
+
+.barSocialMedia {
+    display: flex;
+    position: absolute;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    left: 15px;
+    &::after {
+        content: '|';
+        display: block;
+        transform: translateX(20px)
+    }
+    img {
+        padding: 15px;
+    }
+}

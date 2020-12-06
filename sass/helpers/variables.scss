@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+// Colors 
+$white: #ffffff;
+$darkgrey: #f6f7fb;
+$lightgrey: #7a839e;
+$grey: #484848;
+$blue: #1000ff;
+$lightblue: #7e76f9;
+$darkblue: #1a129f;
+$gradient: linear-gradient(to right, $darkblue 50%, $lightblue);
+$blue_opacity: rgba(126,118,249, 0.15);
+
+
+// Fonts
+$lobster: 'Lobster Two', cursive;
+$poppins: 'Poppins', sans-serif;
+
+// Responsive sizes 
+$tablet: 900px;
+$desktop: 1600px;
+ 
+
+// Font weight
+
+$light: 100;
+$normal: 300;
+$bold: 600;
+$semi-bold: 500;
